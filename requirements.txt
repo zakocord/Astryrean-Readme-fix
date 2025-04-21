@@ -22,3 +22,8 @@ sys
 browser-cookie3
 pycryptodome    
 ctypes
+colorama
+pyfiglet
+requests
+pystyle
+discord.py
