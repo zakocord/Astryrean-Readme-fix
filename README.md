@@ -18,10 +18,10 @@
 ## Features
 
 - Discord Token Stealing  
-- System Information Collection  
-- Screenshot Capture  
-- Anti-VM & Anti-Debug Detection
+- System Information 
+- Screenshot
 - Startup
+- Anti-VM & Anti-Debug Detection
 ---
 
 ## Disclaimer
