@@ -10,8 +10,8 @@ from pystyle import Center
 colorama.init(autoreset=True)
 os.system("cls" if os.name == "nt" else "clear")
 
-target_file = "Component/main.py"
-download_url = "https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/build/Component/main.py"
+target_file = "utils/main.py"
+download_url = "https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/build/utils/main.py"
 
 class Debug:
     ANSI_COLORS = {
