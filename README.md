@@ -32,7 +32,9 @@
 
 ---
 ## TIP
+
 It is recommended that you disable your antivirus software before downloading, as Windows Defender will delete the stealer core files 
+
 ---
 
 ## Installation
