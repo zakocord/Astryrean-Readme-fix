@@ -113,7 +113,7 @@ def install_pyinstaller():
 def build_exe():
     console.log("[*] Starting build process...", color="bright_magenta")
     try:
-        subprocess.run(["pyinstaller", "--onefile", "--noconsole", target_file], check=True)
+        subprocess.run(["nuitka", "--onefile", target_file], check=True)
         console.log("[+] Executable built successfully.", color="bright_green")
     except Exception as e:
         console.log(f"[+] Failed to build executable: {e}", color="bright_red")
