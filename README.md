@@ -3,9 +3,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=3a0ca3&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff" alt="Astryrean Banner" />
 
   <p>
-    <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=8a0045&style=for-the-badge" alt="Top Language">
-    <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=8a0045&style=for-the-badge" alt="Last Commit">
-    <img src="https://img.shields.io/github/stars/zakocord/Astryrean?color=8a0045&style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=3a0ca3&style=for-the-badge" alt="Top Language">
+    <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=3a0ca3&style=for-the-badge" alt="Last Commit">
+    <img src="https://img.shields.io/github/stars/zakocord/Astryrean?color=3a0ca3&style=for-the-badge" alt="Stars">
   </p>
 
   <p><strong>Open-source and Easy Use Stealer</strong></p>
