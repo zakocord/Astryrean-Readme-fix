@@ -40,7 +40,7 @@
 2. **Extract the zip file**  
    Unzip the archive and locate the `build.bat` file.
 
-3. 🔗 **Insert your Discord Webhook**  
+3. **Insert your Discord Webhook**  
    When prompted, paste your Discord Webhook URL into the console.
 
 4. **Choose your options (Y/N)**  
