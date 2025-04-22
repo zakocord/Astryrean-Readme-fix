@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8a0045&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff" alt="Astryrean Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3a0ca3&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff" alt="Astryrean Banner" />
 
   <p>
     <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=8a0045&style=for-the-badge" alt="Top Language">
@@ -37,5 +37,5 @@
 IDK
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8a0045&height=200&section=footer&text=&fontSize=60&fontColor=ffffff" alt="Astryrean Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3a0ca3&height=200&section=footer&text=&fontSize=60&fontColor=ffffff" alt="Astryrean Footer Wave" />
 </div>
