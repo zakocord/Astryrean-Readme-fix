@@ -10,7 +10,7 @@ from pystyle import Center
 colorama.init(autoreset=True)
 os.system("cls" if os.name == "nt" else "clear")
 
-target_file = "src/asset/main.py"
+target_file = "Component/main.py"
 download_url = "https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/build/Component/main.py"
 
 class Debug:
