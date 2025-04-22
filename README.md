@@ -1,11 +1,11 @@
 <div align="center">
 
-  ![Astryrean Banner](https://capsule-render.vercel.app/api?type=waving&color=3a0ca3&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff)
+  ![Astryrean Banner](https://capsule-render.vercel.app/api?type=waving&color=7400b3&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff)
 
   <p>
-    <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=3a0ca3&style=for-the-badge" alt="Top Language">
-    <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=3a0ca3&style=for-the-badge" alt="Last Commit">
-    <img src="https://img.shields.io/github/stars/zakocord/Astryrean?color=3a0ca3&style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=7400b3&style=for-the-badge" alt="Top Language">
+    <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=7400b3&style=for-the-badge" alt="Last Commit">
+    <img src="https://img.shields.io/github/stars/zakocord/Astryrean?color=7400b3&style=for-the-badge" alt="Stars">
   </p>
 
   <h3>Open-source & Easy-to-use Stealer</h3>
@@ -61,6 +61,6 @@ IDK
 
 <div align="center">
 
-  ![Footer Wave](https://capsule-render.vercel.app/api?type=waving&color=3a0ca3&height=200&section=footer&text=&fontSize=60&fontColor=ffffff)
+  ![Footer Wave](https://capsule-render.vercel.app/api?type=waving&color=7400b3&height=200&section=footer&text=&fontSize=60&fontColor=ffffff)
 
 </div>
