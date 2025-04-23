@@ -14,6 +14,11 @@
 </div>
 
 ---
+> [!CAUTION]
+> The only official places to download Astryrean are this GitHub repository and [astryrean.xyz](https://zakocord.github.io/Astryrean.xyz/). Any other websites offering downloads or claiming to be us are not controlled by us.
+<div align="center">
+
+---
 
 ## Features
 
