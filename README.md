@@ -31,7 +31,17 @@
     -   Check if Debbuger (x64dbg) or other software is running
 -   Startup (under development)
     -   Add to Powershell:startup
-    -   Add to registry 
+    -   Add to registry
+---
+
+<div align="center">
+  <h1><h1>
+  <img src="https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/img/to0.png" alt="Astryrean Token">
+  <img src="https://raw.githubusercontent.com/zakocord/Astryrean/refs/heads/main/img/sys0.png" alt="Astryrean System">
+</div>
+
+## License
+Astryrean is [MIT License](https://mit-license.org/)
 
 <div align="center">
   <!-- Footer Wave -->
