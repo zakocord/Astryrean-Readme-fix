@@ -59,6 +59,13 @@
 IDK
 ---
 
+## Virus total
+2025/4/23
+| **Detection** | **Status** |
+|--------------------------|------------|
+| Total Engines             | 70         |
+| Detected                 | 20         |
+
 <div align="center">
 
   ![Footer Wave](https://capsule-render.vercel.app/api?type=waving&color=7400b3&height=200&section=footer&text=&fontSize=60&fontColor=ffffff)
