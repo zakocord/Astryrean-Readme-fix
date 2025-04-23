@@ -1,15 +1,13 @@
 <div align="center">
-  <!-- Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7400b3&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff" alt="Astryrean Banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=c20054&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff" alt="Astryrean Banner">
 
-  <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=7400b3&style=for-the-badge" alt="Top Language">
-    <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=7400b3&style=for-the-badge" alt="Last Commit">
-    <img src="https://img.shields.io/github/stars/zakocord/Astryrean?color=7400b3&style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=c20054&style=for-the-badge" alt="Top Language">
+    <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=c20054&style=for-the-badge" alt="Last Commit">
+    <img src="https://img.shields.io/github/stars/zakocord/Astryrean?color=c20054&style=for-the-badge" alt="Stars">
   </p>
 
-  <h3 style="font-family: 'Arial', sans-serif; color: #7400b3;">Open-source & Easy-to-use Stealer</h3>
+  <h3 style="font-family: 'Arial', sans-serif; color: #c20054;">Open-source & Easy-to-use Stealer</h3>
   <p style="font-family: 'Arial', sans-serif; color: #333; font-size: 18px;">A minimal, powerful tool designed for research and educational purposes.</p>
 </div>
 
@@ -45,5 +43,5 @@ Astryrean is [MIT License](https://mit-license.org/)
 
 <div align="center">
   <!-- Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7400b3&height=200&section=footer&text=&fontSize=60&fontColor=ffffff" alt="Footer Wave">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=c20054&height=200&section=footer&text=&fontSize=60&fontColor=ffffff" alt="Footer Wave">
 </div>
