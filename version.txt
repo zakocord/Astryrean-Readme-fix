@@ -15,7 +15,7 @@ VSVersionInfo(
       [
       StringTable(
         '040904B0',
-        [StringStruct('CompanyName', 'Astryean'),
+        [StringStruct('CompanyName', 'Builder.exe'),
         StringStruct('FileDescription', 'Installer'),
         StringStruct('FileVersion', '1.0.0.0'),
         StringStruct('InternalName', 'builded.exe'),
