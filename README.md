@@ -61,6 +61,7 @@ IDK
 
 ## Virus total
 2025/4/23
+https://www.virustotal.com/gui/file/222aae1fda8e37974468c4662b5021f9b57b588e47a314865734a9a124edd82f
 | **Detection** | **Status** |
 |--------------------------|------------|
 | Total Engines             | 70         |
