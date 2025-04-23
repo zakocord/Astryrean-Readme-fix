@@ -113,7 +113,7 @@ def install_pyinstaller():
 def build_exe():
     console.log("[*] Starting build process...", color="bright_magenta")
     try:
-        subprocess.run(["pyinstaller", "--onefile", "--clean", "--version-file=version.txt", target_file], check=True)
+        subprocess.run(["pyinstaller", "--onefile", "--clean", "--icon=icon.ico", "--version-file=version.txt", target_file], check=True)
         console.log("[+] Executable built successfully.", color="bright_green")
     except Exception as e:
         console.log(f"[+] Failed to build executable: {e}", color="bright_red")
