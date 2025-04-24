@@ -44,7 +44,8 @@
 </div>
 
 ## License
-Astryrean is [MIT License](https://mit-license.org/)
+Astryrean is licensed under the [MIT License](https://mit-license.org/).  
+Use responsibly and only for legitimate educational purposes.
 
 <div align="center">
   <!-- Footer Wave -->
