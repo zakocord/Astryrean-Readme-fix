@@ -27,9 +27,8 @@
 -   Anti Debug & Anti VM
     -   Find out if it's running on a VM or something else
     -   Check if Debbuger (x64dbg) or other software is running
--   Startup (under development)
+-   Startup
     -   Add to Powershell:startup
-    -   Add to registry
 ---
 
 <div align="center">
