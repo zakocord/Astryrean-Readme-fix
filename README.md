@@ -33,6 +33,8 @@
     -   Check if Debbuger (x64dbg) or other software is running
 -   Startup
     -   Add to Powershell:startup
+-   Other
+    -   Restart PC
 ---
 
 <div align="center">
