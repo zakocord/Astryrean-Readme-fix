@@ -1,6 +1,10 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=c20054&height=200&section=header&text=Astryrean&fontSize=60&fontColor=ffffff" alt="Astryrean Banner">
 
+
+
+
+
   <p>
     <img src="https://img.shields.io/github/languages/top/zakocord/Astryrean?color=c20054&style=for-the-badge" alt="Top Language">
     <img src="https://img.shields.io/github/last-commit/zakocord/Astryrean?color=c20054&style=for-the-badge" alt="Last Commit">
