@@ -54,7 +54,7 @@ def get_user_input():
         h00k = console.input("Enter Your Webhook:", prefix="?", color="bright_magenta")
 
     options = {}
-    for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup"]:
+    for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart"]: 
         val = console.input(f"Enable {key.replace('_', ' ').title()}? (y/n):", prefix="*", color="bright_magenta")
         options[key] = val.lower() == 'y'
 
@@ -85,7 +85,7 @@ def update_main_py(settings):
 
         if feature_start is not None and feature_end is not None:
             feature_block = '    feature = {\n'
-            for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup"]:
+            for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart"]:
                 feature_block += f'        "{key}": {str(settings[key]).capitalize()},\n'  
             feature_block += '    }\n'
 
