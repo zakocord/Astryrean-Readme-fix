@@ -25,6 +25,8 @@ import browser_cookie3
 from Crypto.Cipher import AES
 import ctypes
 
+# Coca lola
+
 h00k = ""
 
 
