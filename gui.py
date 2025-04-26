@@ -61,7 +61,7 @@ console = Debug()
 
 def download_file(url, destination):
     try:
-        console.log(f"[INFO] Not found: {target_file} Downloading...", "bright_yellow")
+        console.log(f"[!] Downloading | {target_file}", "bright_yellow")
         response = requests.get(url)
         response.raise_for_status()
         os.makedirs(os.path.dirname(destination), exist_ok=True)
@@ -79,7 +79,7 @@ def get_user_input():
 
     options = {}
     for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart"]: 
-        val = console.input(f"Enable {key.replace('_', ' ').title()}? (y/n):", prefix="*", color="bright_magenta")
+        val = console.input(f"Enable {key.replace('_', ' ').title()}? (y/n):", prefix="?", color="bright_magenta")
         options[key] = val.lower() == 'y'
 
     return {
