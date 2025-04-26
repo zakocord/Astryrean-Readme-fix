@@ -15,12 +15,12 @@ VSVersionInfo(
       [
       StringTable(
         '040904B0',
-        [StringStruct('CompanyName', 'Builder.exe'),
+        [StringStruct('CompanyName', 'Build.py'),
         StringStruct('FileDescription', 'Installer'),
-        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('FileVersion', '6.0.3.1'),
         StringStruct('InternalName', 'builded.exe'),
         StringStruct('OriginalFilename', 'builded.exe'),
-        StringStruct('ProductName', 'Astry3an chan Tool'),
+        StringStruct('ProductName', 'Discord Selfbot'),
         StringStruct('ProductVersion', '6.6.6.7')])
       ]),
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
