@@ -109,7 +109,7 @@ def update_main_py(settings):
 
         if feature_start is not None and feature_end is not None:
             feature_block = '    feature = {\n'
-            for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart"]:
+            for key in ["anti_vm", "anti_debug", "token", "systeminfo", "screenshot", "startup", "restart", "self_delete"]:
                 feature_block += f'        "{key}": {str(settings[key]).capitalize()},\n'  
             feature_block += '    }\n'
 
