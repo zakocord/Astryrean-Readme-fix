@@ -35,6 +35,7 @@
     -   Add to Powershell:startup
 -   Other
     -   Restart PC
+    -   Self Delete
 ---
 ## TODO
 -   Anti Virus
