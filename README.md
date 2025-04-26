@@ -36,6 +36,13 @@
 -   Other
     -   Restart PC
 ---
+## TODO
+-   Anti Virus
+    -   Disable a anti virus
+    -   break the windows defender
+
+
+---
 
 <div align="center">
   <h1><h1>
